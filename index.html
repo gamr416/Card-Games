@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <py-env>
+      - paths:
+        pyy.py
+    </py-env>
+
+    <meta charset="utf-8"/>
+    <title>
+       что-то приличное
+    </title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <h1 id="h1">ПРИВЕТ</h1>
+    <p id="text">Выводы
+      Проведя данное исследование, можно сформулировать основные правила для того, чтобы игра в карты приносила только пользу:
+      1. Не играть в азартные карточные игры такие как очко, покер, баккара и т.п.
+      2. Не играть с незнакомыми и мало знакомыми людьми
+      3. Не играть на деньги
+      4. Научить детей правильно воспринимать карточные игры
+      Своим одноклассникам я рекомендую играть только в семейные или коммерческие карточные игры.
+    </p>
+    <h3>Игральный кубик, нажми на ссылку, чтобы обновить</h3>
+    <p>На  кубиках выпали: <label id="nums"></label></p>
+    <py-script id="smthsht">
+      from py import generate_num
+      pyscript.write('lucky', generate_num())
+      print(random.randint(1, 6))
+    </py-script>
+    <a href="https://gamr416.github.io/Card-Games/">
+      <button>ссылка</button>
+    </a>
+  </body>
+</html>

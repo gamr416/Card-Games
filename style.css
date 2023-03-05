@@ -1,0 +1,27 @@
+body {
+  background: #000000;
+}
+#smthsht {
+  display: flex;
+  justify-content: center;
+}   
+#h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+a {
+  color: #ffffff;
+  font-size: 30px;
+}
+h3 {
+  color: #ffffff;
+}
+text {
+  color: #ffffff;
+}
