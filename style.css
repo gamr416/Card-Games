@@ -5,14 +5,16 @@ body {
   display: flex;
   justify-content: center;
 }   
-h1 {
+#first {
   display: flex;
   justify-content: center;
   color: rgb(255, 255, 255);
 }
 h2 {
-  display: flex;
-  justify-content: center;
+  color: #ffffff;
+}
+
+h3 {
   color: rgb(255, 255, 255);
 }
 a {
@@ -22,6 +24,6 @@ a {
 h3 {
   color: #ffffff;
 }
-#text {
+.text {
   color: #ffffff;
 }

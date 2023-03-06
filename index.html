@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8"/>
     <title>
-       что-то приличное
+      Карточные игры. Вред или польза?
     </title>
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
-    <h1>ПРИВЕТ</h1>
+    <h1 id="first">ПРИВЕТ!</h1>
+    <h2>Этот сайт был создан как памятка к проведенному мною исследованию про карточные игры.</h2>
 
-    <div id="text"> Проведя данное исследование, можно сформулировать основные правила для того, чтобы игра в карты приносила только пользу: </br>
+    <div class="text"> Проведя данное исследование, можно сформулировать основные правила для того, чтобы игра в карты приносила только пользу: </br>
       1. Не играть в азартные карточные игры такие как очко, покер, баккара и т.п.</br>
       2. Не играть с незнакомыми и мало знакомыми людьми</br>
       3. Не играть на деньги</br>
@@ -20,15 +21,16 @@
       Своим одноклассникам я рекомендую играть только в семейные или коммерческие карточные игры.
 
     </div>
-    <h3>Игральный кубик, нажми на ссылку, чтобы обновить</h3>
-    <p>На  кубиках выпали: <label id="nums"></label></p>
+    <h2>Игральный кубик, нажми на ссылку, чтобы обновить</h2>
+    <a href="https://gamr416.github.io/Card-Games/">
+      <button>ссылка</button>
+    </a>
+    <p>.</p>
+    <div class="text">На  кубиках выпали:</div>
     <py-script id="smthsht">
       import random
       print(random.randint(1, 6), end=" ")
       print(random.randint(1, 6))
     </py-script>
-    <a href="https://gamr416.github.io/Card-Games/">
-      <button>ссылка</button>
-    </a>
   </body>
 </html>
